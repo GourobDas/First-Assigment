@@ -50,7 +50,7 @@ h2 {
     text-align: center;
 }
 
-.flaflexible-container {
+.flaflexible-container-1 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -106,4 +106,80 @@ h2 {
 
 #shelter {
     background-color: azure;
+}
+
+.flexible-container {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flexible-container {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    margin-top: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(252, 245, 245);
+    font-weight: 700;
+}
+
+.updates {
+    margin-top: 50px;
+}
+
+.myupdates {
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 400px;
+    height: 200px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+form {
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+input[type="text"] {
+    width: 60pxS;
+    height: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 20opx;
+    padding: -30px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 5px;
+    background-color: orangered;
 }
