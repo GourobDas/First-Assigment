@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 20px;
 }
 
 .first-h1 {
@@ -9,6 +11,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .first-p {
@@ -28,10 +36,74 @@ body {
 }
 
 .donate-button {
+    margin-top: 70px;
     text-decoration: none;
     background-color: rgb(255, 81, 0);
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: bolder;
 
+}
+
+.line-class {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.flaflexible-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.box-container {
+    text-align: justify;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 135px;
+    height: 120px;
+    margin-left: 30px;
+    padding-left: 20px;
+    box-shadow: 20px 10px 40px gray;
+    border-radius: 5px;
+    background-color: bisque;
+
+}
+
+#different {
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: orangered;
+}
+
+.sec-box-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.family {
+    text-align: center;
+    padding-top: 50px;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+#food {
+    background-color: blanchedalmond;
+}
+
+#education {
+    background-color: blanchedalmond;
+}
+
+#shelter {
+    background-color: azure;
 }
